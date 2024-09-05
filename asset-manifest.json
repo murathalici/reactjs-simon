@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simon-memory-game/static/css/main.229c7115.css",
+    "main.js": "/simon-memory-game/static/js/main.52cd8a35.js",
+    "index.html": "/simon-memory-game/index.html",
+    "main.229c7115.css.map": "/simon-memory-game/static/css/main.229c7115.css.map",
+    "main.52cd8a35.js.map": "/simon-memory-game/static/js/main.52cd8a35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.229c7115.css",
+    "static/js/main.52cd8a35.js"
+  ]
+}
