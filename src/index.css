@@ -1,0 +1,65 @@
+/* src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Simon Game */
+.simon-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.simon-tile {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  border: 5px solid black;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.simon-tile.green {
+  background-color: #34d399;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 100%;
+}
+
+.simon-tile.red {
+  background-color: #f87171;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 100%;
+}
+
+.simon-tile.yellow {
+  background-color: #fbbf24;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 100%;
+}
+
+.simon-tile.blue {
+  background-color: #60a5fa;
+  bottom: 0;
+  right: 0;
+  border-bottom-right-radius: 100%;
+}
+
+.center-circle {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.highlight {
+  opacity: 0.6;
+}
